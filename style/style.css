@@ -29,7 +29,14 @@ header {
 }
 
 .logo-search .logo {
-  margin: 0px 20px 0px 20px;
+  background-image: url(../images/google-logo.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  position: relative;
+  top: 24px;
+  left: 20px;
 }
 
 .logo-search .input {
