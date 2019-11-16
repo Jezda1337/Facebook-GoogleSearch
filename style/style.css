@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial,sans-serif;
+  color: #5f6368;
+}
+
+header {
+  border-bottom: 0.3px solid #dfe1e5;
+}
+
+.logo-search {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 65px;
+}
+
+.logo-search .logo {
+  margin: 0px 20px 0px 20px;
+}
+
+.logo-search .input {
+  width: 42%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo-search .input input[type='text'] {
+  background-image: url(../images/slicice/google-search-icon.png);
+  background-position: 670px center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 25px;
+}
+
+.logo-search .input input[type='text']:hover {
+  cursor: pointer;
+}
+
+.logo-search .input #search-bar {
+  width: 90%;
+  border-radius: 40px;
+  outline: none;
+  border: 1px solid #dfe1e5;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.logo-search .input #search-bar:hover {
+  -webkit-box-shadow: 0px 1px 10px #dfe1e4;
+          box-shadow: 0px 1px 10px #dfe1e4;
+}
+
+.profil {
+  float: right;
+  position: relative;
+  top: -25px;
+  margin-right: 35px;
+  letter-spacing: 10px;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul li {
+  margin-right: 25px;
+}
+
+ul li a:hover {
+  color: #1A73E8;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  margin-bottom: 0px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  outline-width: 0;
+  margin-bottom: 10px;
+  color: #5f6368;
+  position: relative;
+  left: 30px;
+  width: 80%;
+}
+
+nav .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 140px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 16px;
+}
+
+nav .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 100px;
+}
+
+#tools {
+  padding: 6px 11px;
+}
+
+#tools:hover {
+  background-color: #f3f3f3;
+  padding: 5px 10px;
+  border: 1px solid #b1b1b1;
+  color: #5c5c5c;
+}
+
+.resault-about {
+  padding: 10px;
+  position: relative;
+  left: 160px;
+  width: 80%;
+}
+
+main {
+  margin-top: 13px;
+}
+
+main .resault {
+  position: relative;
+  left: 160px;
+  width: 80%;
+}
+
+main .resault .first-resault {
+  margin-bottom: 20px;
+}
+
+main .resault .sec-resault {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  width: 50%;
+  position: relative;
+  left: 30px;
+}
+
+main .fa {
+  color: #151BAA;
+  font-size: 1.250em;
+}
+
+main .fa:hover {
+  text-decoration: underline;
+}
+
+.box {
+  margin-bottom: 40px;
+}
+
+.box p {
+  margin-top: 5px;
+}
+
+.bottom-nav {
+  display: block;
+  text-align: center;
+  float: left;
+  position: relative;
+  left: 300px;
+  margin: 0px 0px 30px 0px;
+}
+
+.bottom-nav .links a {
+  color: #151BAA;
+  margin-right: 10px;
+  width: 30%;
+}
+
+.bottom-nav .links a:hover {
+  text-decoration: underline;
+}
+
+.bottom-nav .links .next {
+  margin-left: 30px;
+  margin-right: -90px;
+}
+/*# sourceMappingURL=style.css.map */
